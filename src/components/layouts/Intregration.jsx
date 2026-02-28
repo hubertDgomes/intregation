@@ -8,6 +8,7 @@ import logo5 from "../../assets/logo5.jpeg"
 import final from '../../assets/final.jpeg'
 import "../../App.css"
 import { motion, useScroll, useTransform } from "framer-motion"
+import Dashboard from "./Dashboard"
 
 const Intregration = () => {
 
@@ -94,6 +95,9 @@ const Intregration = () => {
                         <Images src={final} />
                     </motion.div>
                 </div>
+                <Dashboard/>
+                <Dashboard/>
+                <Dashboard/>
             </div>
 
 
