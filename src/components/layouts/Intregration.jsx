@@ -95,9 +95,11 @@ const Intregration = () => {
                         <Images src={final} />
                     </motion.div>
                 </div>
+                <div className="flex flex-col gap-y-[20px]">
+                    <Dashboard/>
                 <Dashboard/>
                 <Dashboard/>
-                <Dashboard/>
+                </div>
             </div>
 
 
