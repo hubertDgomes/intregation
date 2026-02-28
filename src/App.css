@@ -1,0 +1,9 @@
+@import "tailwindcss";
+html{
+  /* background: #F0F4FF; */
+}
+@theme {
+  --font-google: "Google Sans", sans-serif; 
+}
+
+
